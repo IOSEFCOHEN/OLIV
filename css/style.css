@@ -1,0 +1,63 @@
+/* reseteo estilos por defecto */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    
+}
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+nav {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: black;    
+}
+
+
+nav ul {
+    /* quitar bullets */
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.producto {
+    text-align: center;
+
+}
+.fotos {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+}
